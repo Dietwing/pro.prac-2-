@@ -37,7 +37,3 @@ locust -f tests/locustfile.py --host=http://127.0.0.1:8050
 docker build -t nri-combat-analytics .
 docker run -p 8050:8050 nri-combat-analytics
 ```
-
-
-## Примечание по Playwright
-В средах наподобие GitHub Codespaces браузерный тест может быть автоматически пропущен, если в системе отсутствуют низкоуровневые зависимости Chromium. Это не влияет на запуск pytest-проверок HTTP и layout-части приложения.
