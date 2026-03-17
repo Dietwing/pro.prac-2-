@@ -1,0 +1,2 @@
+-r nri_combat_analytics_dashboard/requirements-dev.txt
+pytest-playwright==0.7.0
